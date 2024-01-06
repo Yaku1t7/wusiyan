@@ -14,9 +14,9 @@ void game()
 	//Initialize chessboard(3x3)
 	/*   |   |
 	  ---|---|---
-		   |   |
+             |   |
 	  ---|---|---
-	  	 |   |   */
+	     |   |   */
 	InitBoard(board, ROW, COL);
 	DisplayBoard(board, ROW, COL);
 	while (1)
